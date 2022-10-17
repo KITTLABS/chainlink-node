@@ -5,7 +5,7 @@ Simple docker-compose-based project to get quickly up and running a Chainlink no
 
 1. Clone repository
 
-1. Review `chainlink-goerli.env` and adapt accordingly. The committed environment file uses Goerli testnet. Also, the example uses a chainstack public Ethereum service node.
+1. Review `chainlink-goerli.env` and adapt accordingly. The committed environment file uses Goerli testnet. You will need to provide your own `ETH_URL`
 
 2. Build and run with docker-compose
 
