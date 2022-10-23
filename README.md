@@ -1,7 +1,15 @@
-# chainlink-docker-compose
-Simple docker-compose-based project to get quickly up and running a Chainlink node. This is intended mainly for development use, or at least should be enough to get you started with a working-as-is repository. However, it assumes basic Docker skills.
+# SolidityATL Chainlink Node
+Docker-compose-based project to get quickly up and running a Chainlink node. 
 
-# How to use
+We currently have a node running on Goerli:
+
+- Oracle contract address: `0xAB770e728e4FDCF9CAE68B0BDC5548704156584c`
+- Node address: `0x87ef7dAbf50Ce0d4033733ad1534d099187De99B`
+- Node admin view: `http://147.182.216.198:6688/`
+
+- There is a sample job on the deployed node that can be triggered:
+  - JobId: `3da67337-f8b7-437d-acd9-ca91fd928aec`
+# How to run locally
 
 1. Clone repository
 
@@ -11,10 +19,10 @@ Simple docker-compose-based project to get quickly up and running a Chainlink no
 
 * Build with default values, which you can adapt if needed inside the `Dockerfile`
 ```
-docker-compose up --build
+docker-compose up --build -d
 ```
 
-* First build with your own build args and then run:
+* If you wan a custom username/password and then run:
 
 ```
 $ docker-compose build --build-arg API_USER_EMAIL=my@test.com API_USER_PASSWORD=mypassword
