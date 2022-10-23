@@ -9,6 +9,7 @@ We currently have a node running on Goerli:
 
 - There is a sample job on the deployed node that can be triggered:
   - JobId: `3da67337-f8b7-437d-acd9-ca91fd928aec`
+  - Sample job contract address: `0xcC1c770cF3a9C315b3AC8F24f7aA65dE5ab2a722`
 # How to run locally
 
 1. Clone repository
